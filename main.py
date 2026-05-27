@@ -16,7 +16,7 @@ app = FastAPI(title="Gerador de Descrições IA")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # O asterisco significa "liberado para todos"
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
