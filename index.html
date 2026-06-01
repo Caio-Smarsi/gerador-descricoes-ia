@@ -83,7 +83,7 @@
 
             try {
                 // 3. Faz o pedido (Bate na porta do nosso FastAPI)
-                const resposta = await fetch("http://127.0.0.1:8000/gerar", {
+                const resposta = await fetch("https://meu-motor-ia.onrender.com/gerar", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
