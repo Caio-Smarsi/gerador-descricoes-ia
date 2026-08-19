@@ -1,1 +1,21 @@
+# Arquivos de Ambiente
 .env
+.venv/
+env/
+venv/
+ENV/
+
+# Bancos de Dados Locais
+*.db
+*.sqlite3
+
+# Arquivos de Sistema do Python (Cache e Compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Arquivos do Sistema Operativo
+.DS_Store
+Thumbs.db
